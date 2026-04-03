@@ -66,7 +66,7 @@ A backend service for an Instagram‑style application built with Node.js, Expre
 <img width="944" height="407" alt="image" src="https://github.com/user-attachments/assets/c42b56df-6067-401b-91a2-dd08e22e6229" />
 <img width="944" height="322" alt="image" src="https://github.com/user-attachments/assets/16e54277-61c1-4237-87e8-be28327d8e66" />
 
-### POST User verify OTP
+### POST User Verify OTP (marks user as verified in DB).
 <img width="944" height="665" alt="image" src="https://github.com/user-attachments/assets/a6b94341-dd6c-4d6c-aafe-3d078b12b994" />
 ### POST Post (When user creates a Post then followers notifies (web sockets))
 <img width="795" height="217" alt="image" src="https://github.com/user-attachments/assets/4c0c3dfc-9658-4581-a734-dd4882ef0aee" />
