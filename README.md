@@ -1,6 +1,6 @@
 #  Instagram Backend (version 01- Redis, BullMQ,Web Sockets, Nodemailer)
 
-A backend service for an Instagram‑style application built with Node.js, Express, MongoDB, Redis, BullMQ, Nodemailer, Rate limiter and JWT authentication.
+A backend service for an Instagram‑style application built with Node.js, Express, MongoDB, Redis, BullMQ, Nodemailer, Rate limiter and JWT authentication(Access & Refresh token).
 
 ##  Features
 - **User Authentication**
