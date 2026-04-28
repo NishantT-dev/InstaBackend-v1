@@ -25,13 +25,14 @@ const userSchema = new mongoose.Schema(
       default: "user",
       required: true,
     },
-    isDeleted:{
-        type:Boolean,
-        default:false
+    isDeleted: {
+      type: Boolean,
+      default: false,
     },
-    isVerified:{
-      type:Boolean,
-    default:false    }
+    isVerified: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,

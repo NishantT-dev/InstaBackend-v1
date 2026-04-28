@@ -32,6 +32,7 @@ const postSchema = new mongoose.Schema(
         "devotional",
         "gaming",
         "sports",
+        "education",
       ],
       default: "lifestyle",
     },

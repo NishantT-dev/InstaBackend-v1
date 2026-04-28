@@ -11,7 +11,7 @@ import {
 } from "../controller/userController.js";
 import jwtMiddleware from "../middleware/jwtMiddleware.js";
 import { loginLimiter } from "../middleware/rateLimitMiddleware.js";
-import { sendOtpEmail, } from "../services/otpServices.js";
+import { sendOtpEmail } from "../services/otpServices.js";
 const userRouter = express.Router();
 
 userRouter.post("/send-otp", async (req, res) => {
