@@ -8,6 +8,7 @@ import logger from "./utils/logger.js";
 
 dotenv.config(); 
 
+//connecting Database
 db_conn();
 
 // Health check route

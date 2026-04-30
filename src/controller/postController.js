@@ -27,7 +27,7 @@ const createPost = async (req, res, next) => {
     const followers = await Follow.find({ followedId: userId }).select(
       "followerId",
     );
- 
+
     // User will notified (socket.io) when the user followed by them creates a post
     const io = getIO(); // get initialized socket instance
     followers.forEach((f) => {

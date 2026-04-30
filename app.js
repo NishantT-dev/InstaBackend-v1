@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import userRouter from "./routes/userRoutes.js";
 import postRouter from "./routes/postRoutes.js";
 import { errorHandler } from "./middleware/errorMiddleware.js";
-import { initSocket } from "./socket.js";
+import { initSocket } from "./src/services/socket.js";
 
 const app = express();
 
